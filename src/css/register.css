@@ -1,0 +1,276 @@
+@import url(../css/common.css);
+.register {
+  min-width: 1190px;
+  width: auto;
+}
+
+.register .register_header {
+  padding: 22px 0px;
+  height: 44px;
+  width: 1190px;
+  margin: auto;
+  display: block;
+}
+
+.register .register_header img {
+  margin-top: 8px;
+}
+
+.register .register_conter {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.register .register_conter .inner {
+  width: 100%;
+  position: relative;
+  width: 1190px;
+  margin: auto;
+  height: 600px;
+  background: url(../img/inner.jpg);
+}
+
+.register .register_conter .inner .conter_text {
+  width: 350px;
+  padding: 0;
+  margin: auto;
+  top: 100px;
+  right: -335px;
+  color: #6c6c6c;
+  background: #fff;
+  position: relative;
+  height: auto !important;
+  padding-bottom: 75px;
+}
+
+.register .register_conter .inner .conter_text .conter_head img {
+  top: 10px;
+  position: absolute;
+  right: 58px;
+}
+
+.register .register_conter .inner .conter_text .conter_head span, .register .register_conter .inner .conter_text .conter_head .hd_sm {
+  z-index: 999;
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+  top: 12px;
+  background: url(../img/jt.png) 270px -85px;
+}
+
+.register .register_conter .inner .conter_text .conter_head .hd_sm {
+  background: url(../img/jt.png) 345px -85px;
+}
+
+.register .register_conter .inner .conter_text .conter_bd {
+  padding: 25px 26px 20px;
+  position: relative;
+}
+
+.register .register_conter .inner .conter_text .conter_bd h3 {
+  height: 18px;
+  line-height: 18px;
+  font-size: 16px;
+  color: #3c3c3c;
+  margin-top: 9px;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .number {
+  margin-top: 25px;
+  position: relative;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .number label {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background: #ddd;
+  text-align: center;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  outline: 0;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .number label img {
+  margin: 8px 0;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .number input {
+  border-color: #cbcbcb;
+  color: #9b9b9b;
+  width: 240px;
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  padding: 11px 8px 11px 50px;
+  border: 1px solid #ddd;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .psw {
+  margin-top: 25px;
+  position: relative;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .psw label {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background: #ddd;
+  text-align: center;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  outline: 0;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .psw label img {
+  margin: 8px 0;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .psw input {
+  width: 240px;
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  padding: 11px 8px 11px 50px;
+  border: 1px solid #ddd;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .submit {
+  margin-top: 20px;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .submit button {
+  width: 300px;
+  height: 42px;
+  line-height: 42px;
+  background: #AF0000;
+  border: 0;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  zoom: 1;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .qrcode_mod .qrcode_main {
+  position: relative;
+  margin-top: 24px;
+  height: 140px;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .qrcode_mod .qrcode_main img {
+  vertical-align: top;
+  position: absolute;
+  left: 80px;
+  top: 0;
+  z-index: 100;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .qrcode_mod .qrcode_desc {
+  overflow: hidden;
+  width: 188px;
+  margin: 24px auto 0;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .qrcode_mod .qrcode_desc .iconfont {
+  background: url(../img/jt.png) 276px 2px;
+  float: left;
+  width: 34px;
+  line-height: 36px;
+  margin-right: 10px;
+  display: block;
+  height: 36px;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .qrcode_mod .qrcode_desc p a {
+  color: #c40000;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .links {
+  margin-top: 25px;
+  overflow: hidden;
+  text-align: right;
+}
+
+.register .register_conter .inner .conter_text .conter_bd .links a {
+  margin-right: 10px;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+
+.register .register_conter .inner .conter_text_sm {
+  display: none;
+}
+
+.register .register_footer .register_copyright {
+  text-align: left;
+  min-height: 205px;
+  margin: 0;
+  padding: 0;
+  padding-left: 75px;
+}
+
+.register .register_footer .register_copyright p {
+  width: 1190px;
+  color: #fff;
+  line-height: 10px;
+  padding: 5px 0;
+}
+
+.register .register_footer .register_copyright p a {
+  margin-right: 3px;
+  color: #000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.register .register_footer .register_copyright .cop_footer_otherlink span, .register .register_footer .register_copyright .cop_footer_otherlink .register_conter .inner .conter_text .conter_head .hd_sm, .register .register_conter .inner .conter_text .conter_head .register_footer .register_copyright .cop_footer_otherlink .hd_sm {
+  font-size: 12px;
+}
+
+.register .register_footer .register_copyright .cop_footer_copyright span, .register .register_footer .register_copyright .cop_footer_copyright .register_conter .inner .conter_text .conter_head .hd_sm, .register .register_conter .inner .conter_text .conter_head .register_footer .register_copyright .cop_footer_copyright .hd_sm {
+  margin-right: 50px;
+  line-height: 25px;
+  color: #a4a4a4;
+  width: 1190px;
+  font-size: 12px;
+}
+
+.register .register_footer .register_copyright .cop_footer_copyright span img, .register .register_footer .register_copyright .cop_footer_copyright .register_conter .inner .conter_text .conter_head .hd_sm img, .register .register_conter .inner .conter_text .conter_head .register_footer .register_copyright .cop_footer_copyright .hd_sm img {
+  vertical-align: middle;
+}
+
+.register .register_footer .register_copyright .cop_footer_copyright span a, .register .register_footer .register_copyright .cop_footer_copyright .register_conter .inner .conter_text .conter_head .hd_sm a, .register .register_conter .inner .conter_text .conter_head .register_footer .register_copyright .cop_footer_copyright .hd_sm a {
+  color: #a4a4a4;
+  text-decoration: none;
+}
+
+.register .register_footer .register_copyright .cop_footer_copyright b {
+  display: block;
+  color: #686868;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.register .register_footer .register_copyright .cop_footer_copyright .jb {
+  color: #686868;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+}

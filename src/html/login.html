@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>注册页面</title>
+  <link rel="stylesheet" type="text/css" href="../css/login.css">
+  <script src="../js/jquery-3.1.1.js"></script>
+  <script src="../js/AjaxBase.js"></script>
+  <script src="../js/cookiebase.js"></script>
+  <script src="../js/login.js"></script>
+</head>
+<body>
+  <div class="ad warpper"></div>
+  <header class="publictop warpper">
+    <span class="logo"><a href="index.html"><img src="../img/register_header.png" alt=""></a></span>
+    <span class="welcome">欢迎注册</span>
+    <span class="alreadyLogin">已注册,请 <a href="http://localhost/src/html/register.html">登录></a></span>
+  </header>
+  <div class="login warpper">
+    <div class="loginTitle">
+      <ul>
+          <li>个人用户注册</li>
+      </ul>
+    </div>
+    <div class="loginTix">
+       <div class="loginContent clear">
+         <form id="registerForm" method="post" action="">
+           <div class="cBox">
+                    <input placeholder="手机号码" type="text" id="userName"  class="userName" title="请输入11位手机号">
+                    <i></i>
+                    <label for="userName" class="error"></label>
+          </div>
+          <div class="cBox">
+                    <input placeholder="设置密码" type="password" id="password" name="password" class="password" title="6-20位字符，可由英文、数字及标点符号组成">
+                    <i></i>
+                    <label for="userName" class="error"></label>
+          </div>
+          <div class="short clear">
+                    <input type="text" placeholder="验证码" name="code" class="code" id="code" maxlength="4" size="10" title="请输入验证码">
+                    <i></i>
+                    <div class="icode">
+                    </div>
+                    <span class="refresh">点击获取验证码</span>
+                    <label for="userName" class="error"></label>
+
+
+          </div>
+          <div class="short clear">
+                    <input placeholder="短信验证码" type="text" id="phonecode" maxlength="6" name="phonecode" class="phonecode" title="请输入短信验证码">
+                    <i></i>
+                    <input type="button" class="reget" id="reget" value="获取短信验证码">
+                    <label for="userName" class="error"></label>
+                </div>
+          <div class="cBox">
+                    <input placeholder="好友推荐码(非必填)" type="text" id="tuijianma" name="tuijianma" class="text tip input-40" title="请输入好友推荐码">
+                </div>
+           <div class="submitLogin">
+                    <input name="agree" type="checkbox" class="agree" id="clause" value="1" checked="checked">
+                    <span for="clause" class="ml5">
+                        阅读并同意 <a href="#">服务协议</a>
+                    </span>
+                    <!-- <input type="button" id="Submit" class="submit" value="立即注册"> -->
+                    <button id="Submit" class="submit">立即注册</button>
+          </div>
+         </form>
+       </div>
+
+    </div>
+
+  </div>
+</body>
+</html>

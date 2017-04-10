@@ -1,0 +1,131 @@
+.productContent .productPic {
+  float: left;
+  height: 460px;
+  width: 380px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  left: 200px;
+  margin-top: 50px;
+  display: block;
+}
+
+.productContent .productPic .pic {
+  cursor: move;
+}
+
+.productContent .productPic .pic .minzoom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #fc0;
+  background-color: #ff0;
+  background-color: rgba(255, 255, 0, 0.3);
+  filter: alpha(Opacity=30);
+  display: none;
+}
+
+.picBig {
+  position: absolute;
+  height: 430px;
+  width: 430px;
+  left: 585px;
+  top: 352px;
+  z-index: 9999999;
+  border: 1px solid #CCC;
+  overflow: hidden;
+  display: none;
+}
+
+.picBig img {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+}
+
+.productContent .productArgument {
+  float: right;
+  width: 790px;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.productContent .productArgument h2 {
+  padding-bottom: 10px;
+  border-bottom: dotted 1px #CCC;
+  font-size: 22px;
+}
+
+.productContent .productArgument .price {
+  padding-bottom: 50px;
+}
+
+.productContent .productArgument .price span {
+  display: inline-block;
+  min-height: 20px;
+  vertical-align: middle;
+  padding: 4px 0;
+}
+
+.productContent .productArgument .price span:nth-child(2) {
+  font-size: 20px;
+  font-weight: 600;
+  color: #D93600;
+}
+
+.productContent .productArgument .num {
+  border-top: dotted 1px #CCC;
+  padding-top: 30px;
+  height: 50px;
+}
+
+.productContent .productArgument .num #textBox {
+  width: 25px;
+  height: 30px;
+  padding-left: 5px;
+  margin-right: 8px;
+}
+
+.productContent .productArgument .num #add, .productContent .productArgument .num #min {
+  width: 20px;
+  position: relative;
+}
+
+.productContent .productArgument .num #add {
+  top: -12px;
+}
+
+.productContent .productArgument .num #min {
+  top: 12px;
+  left: -24px;
+}
+
+.productContent .productArgument .choose {
+  height: 80px;
+  padding-right: 10px;
+  margin: 10px 0 0 0;
+}
+
+.productContent .productArgument .choose a {
+  font: lighter 16px/20px "Microsoft Yahei";
+  color: #FFF;
+  text-align: center;
+  display: inline-block;
+  height: 20px;
+  padding: 6px 18px;
+  margin-right: 10px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.25);
+}
+
+.productContent .productArgument .choose .buy a {
+  background-color: #FFC35C;
+}
+
+.productContent .productArgument .choose .joinCart a {
+  background-color: #BB0000;
+}

@@ -1,0 +1,172 @@
+
+body{
+  color:#666;
+}
+input{
+  padding:0px;
+  margin:0px;
+}
+.ad{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  cursor: pointer;
+}
+header{
+      height: 110px;
+      width: 1000px !important;
+      position:relative;
+      & .logo{
+        width: 212px;
+        height: 75px;
+        float: left;
+        margin: 50px 60px auto 205px;
+      }
+      .welcome{
+
+        display: inline-block;
+        height: 75px;
+        line-height: 85px;
+        font-size: 20px;
+        margin: 25px 0 0 -55px;
+      }
+      .alreadyLogin{
+        float: right;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        & a{
+          color:blue;
+        }
+        & a:hover{
+        text-decoration: underline;
+        color: red;
+        }
+      }
+}
+.login{
+    width: 1000px;
+    margin: 20px auto;
+    & .loginTitle{
+
+        border-bottom: 1px solid #E6E6E6;
+        width: 100%;
+        text-align: center;
+        & li{
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 22px;
+        margin: 0 26px 0 27px;
+        cursor: pointer;
+        color: #E02423;
+        border-bottom: 2px solid #E02423;
+        }
+    }
+    & .loginTix{
+      width: 400px;
+    margin: 10px auto;
+    }
+    & .loginContent{
+      background: #F9F9F9;
+      padding: 20px 0 0 0;
+      overflow: hidden;
+      zoom: 1;
+    }
+    & .cBox{
+      position: relative;
+      width: 100%;
+      height: 70px;
+      font-size: 16px;
+      & input{
+        height: 40px;
+        width: 398px;
+        text-indent: 10px;
+      }
+    }
+    & input{
+      outline:none;
+      border:1px solid #ccc;
+    }
+    & .short{
+      position: relative;
+      width: 100%;
+      height: 80px;
+      margin-top:5px;
+      font-size: 16px;
+      & i{
+      left: 123px;
+      top: 13px;
+      }
+      & input{
+        width: 148px;
+        height: 40px;
+        text-indent: 10px;
+        float:left;
+      }
+      & .icode{
+        margin: 8px 0 0 20px;
+        width:90px;
+        height:30px;
+        text-align:center;
+        line-height:26px;
+        font-size:17px;
+        border:1px solid #ccc;
+        float:left;
+      }
+      & .refresh{
+        float:left;
+        margin-left:10px;
+        line-height:40px;
+      }
+      & .reget{
+        float:left;
+        width: 148px;
+        height: 42px;
+        line-height: 40px;
+        border: 1px solid #BBB;
+        text-align: center;
+        margin-left: 20px;
+        background: #F4F4F4;
+        color: #777;
+        cursor: pointer;
+      }
+    }
+    & i{
+        position: absolute;
+        right: 16px;
+        top: 13px;
+        width: 16px;
+        height: 16px;
+    }
+    & .submitLogin{
+      & .agree{
+      font-size: 16px;
+    border: 1px solid #E6E6E6;
+      }
+      & .submit{
+        font-size: 14px;
+        font-weight: 700;
+        color: #FFF;
+        width: 400px;
+        height: 40px;
+        padding: 0;
+        margin: 20px 0;
+        border: 0;
+        cursor: pointer;
+        background:red;
+      }
+
+    }
+    & .error{
+
+      display: block;
+      line-height: 26px;
+      height: 26px;
+      width: 210px;
+      color:red;
+      text-indent: 10px;
+    }
+}

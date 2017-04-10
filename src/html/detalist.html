@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../css/detalist.css">
+  <link rel="stylesheet" type="text/css" href="../css/head.css">
+  <link rel="stylesheet" type="text/css" href="../css/footer.css">
+  <link rel="stylesheet" type="text/css" href="../css/reight_tabs.css">
+  <script src="../js/jquery-3.1.1.js"></script>
+  <script src="../js/common.js"></script>
+  <script src="../js/detalist.js"></script>
+  <script src="../js/banner.js"></script>
+  <script src="../js/index.js"></script>
+  <script src="../js/reight_tabs.js"></script>
+
+</head>
+<body>
+  <div class="header">
+    <div class="site_nav">
+      <div class="site_coten">
+        <span class="tm_home">
+          <img src="../img/tm_home.jpg">
+          <a href="#">天猫首页</a>
+        </span>
+        <span>喵，欢迎来天猫</span>
+        <a href="http://localhost/src/html/register.html" class="dl">请登录</a>
+        <a href="http://localhost/src/html/login.html" class="zc">免费注册</a>
+        <ul class="site_coten_ul">
+            <li class="ul_mytaobao">
+              <a href="#">我的淘宝</a>
+              <img src="../img/mymenu.jpg" alt="">
+              <div class="mytaobao_conceal">
+                <a href="#">已买到的宝贝</a>
+                <a href="#">已卖出的宝贝</a>
+              </div>
+            </li>
+            <li class="ul_mybrand">
+              <img src="../img/ul_mybrand.jpg" alt="">
+              <a href="#">我关注的品牌</a>
+            </li>
+            <li class="ul_mycart">
+              <img src="../img/ul_mycart.jpg" alt="">
+              <a href="#">购物车
+                <span class="ul_mycart_mc"><b>0</b></span>
+              件
+              </a>
+            </li>
+            <li class="ul_mymenu">
+              <div class="mymenu">
+                <a href="#">收藏夹</a>
+                <img src="../img/mymenu.jpg" alt="">
+                <span>|</span>
+              </div>
+              <div class="mymenu_conceal">
+                <a href="#">收藏的宝贝</a>
+                <a href="#">收藏的店铺</a>
+              </div>
+            </li>
+            <li class="ul_mobile">
+              <img src="../img/ul_mobile.jpg" alt="">
+              <a href="#">手机版</a>
+              <div class="mobile_conceal">
+                <img src="../img/ewm.jpg" alt="">
+              </div>
+            </li>
+            <li class="ul_taobao">
+              <a href="#">淘宝网</a>
+            </li>
+            <li class="ul_qyg">
+              <a href="#">企业购</a>
+            </li>
+            <li class="ul_seller">
+              <a href="#">商家支持</a>
+              <img src="../img/mymenu.jpg" alt="">
+              <div class="seller_conceal">
+                <ul>
+                    <li>
+                      <h3>商家：</h3>
+                      <a href="#">商家中心</a>
+                      <a href="#">商家入驻</a>
+                      <a href="#">运营服务</a>
+                      <a href="#">商家品控</a>
+                      <a href="#">商家工具</a>
+                      <a href="#">商家规则</a>
+                      <a href="#">天猫智库</a>
+                      <a href="#">喵言喵语</a>
+                    </li>
+                    <li>
+                      <h3>帮助：</h3>
+                      <a href="#">帮助中心</a>
+                    </li>
+                </ul>
+              </div>
+            </li>
+            <li class="ul_sitemap">
+              <img src="../img/ul_sitemap.jpg" alt="">
+              <a href="#">网站导航</a>
+              <img src="../img/mymenu.jpg" alt="">
+              <div class="sitemap_conceal">
+                <div class="sitemap_hot">
+                  <h2>热点推荐<span>Hot</span></h2>
+                  <ul class="sitemap_list">
+                      <li><a href="#">天猫超市</a></li>
+                      <li><a href="#">喵鲜生</a></li>
+                      <li>
+                        <a href="#">科技新品
+                          <i class="sitemap_icon sitemap_new"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">女装新品
+                          <i class="sitemap_icon sitemap_hot"></i>
+                        </a>
+                      </li>
+                      <li><a href="#">酷玩街</a></li>
+                      <li>
+                        <a href="#">内衣新品
+                          <i class="sitemap_icon sitemap_hot"></i>
+                        </a>
+                      </li>
+                      <li><a href="#">试美妆</a></li>
+                      <li><a href="#">运动新品</a></li>
+                      <li>
+                        <a href="#">时尚先生
+                          <i class="sitemap_icon sitemap_hot"></i>
+                        </a>
+                      </li>
+                      <li><a href="#">精明妈咪</a></li>
+                      <li>
+                        <a href="#">吃乐会
+                          <i class="sitemap_icon sitemap_new"></i>
+                        </a>
+                      </li>
+                      <li><a href="#">企业采购</a></li>
+                      <li><a href="#">会员积分</a></li>
+                      <li><a href="#">天猫国际</a></li>
+                  </ul>
+                </div>
+                <div class="sitemap_market">
+                  <h2>行业市场<span>Market</span></h2>
+                  <ul class="sitemap_market_list">
+                      <li><a href="#">美妆</a></li>
+                      <li><a href="#">电器</a></li>
+                      <li>
+                        <a href="#">女装
+                          <i class="market_icon market_hot"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">男装
+                          <i class="market_icon market_hot"></i>
+                        </a>
+                      </li>
+                      <li><a href="#">女鞋</a></li>
+                      <li><a href="#">男鞋</a></li>
+                      <li>
+                        <a href="#">内衣
+                          <i class="market_icon market_hot"></i>
+                        </a>
+                      </li>
+                      <li><a href="#">箱包</a></li>
+                      <li><a href="#">运动</a></li>
+                      <li><a href="#">母婴</a></li>
+                      <li><a href="#">家装</a></li>
+                      <li><a href="#">医药</a></li>
+                      <li><a href="#">食品</a></li>
+                      <li>
+                        <a href="#">配饰
+                          <i class="market_icon market_new"></i>
+                        </a>
+                      </li>
+                      <li><a href="#">汽车</a></li>
+                  </ul>
+                </div>
+                <div class="sitemap_brand">
+                  <h2>品牌风尚<span>Brand</span></h2>
+                  <ul class="sitemap_brand_list">
+                      <li><a href="#">尚天猫</a></li>
+                      <li><a href="#">大牌街</a></li>
+                      <li><a href="#">潮牌街</a></li>
+                      <li><a href="#">天猫原创</a></li>
+                      <li><a href="#">什么牌子好</a></li>
+                  </ul>
+                </div>
+                <div class="sitemap_help">
+                  <h2>服务指南<span>Help</span></h2>
+                  <ul class="sitemap_help_list">
+                      <li><a href="#">帮助中心 </a></li>
+                      <li><a href="#">品质保障 </a></li>
+                      <li><a href="#">特色服务 </a></li>
+                      <li><a href="#">7天退换货 </a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+    <div class="search_box">
+      <div class="search_left">
+        <div class="seach_l_tm">
+          <img src="../img/seach_l_tm.jpg" alt="天猫Tmall.com">
+        </div>
+        <div class="search_slogo">
+          <a href="#">也买酒官方旗舰店</a>
+          <div>
+            <span class="slogo_pp">品牌直销</span>
+            <span class="slogo_a">
+              <a href="#"><img src="../img/sdd.png" alt=""></a>
+            </span>
+          </div>
+        </div>
+        <div class="search_info">
+          <div class="shopdsr-item">
+            <div>描 述</div>
+            <div>
+              <span>4.9</span>
+              <img src="../img/jt.jpg" alt="">
+            </div>
+          </div>
+          <div class="shopdsr-item">
+            <div>服 务</div>
+            <div>
+              <span>4.8</span>
+              <img src="../img/jt.jpg" alt="">
+            </div>
+          </div>
+          <div class="shopdsr-item">
+            <div>物 流</div>
+            <div>
+              <span>4.8</span>
+              <img src="../img/jt.jpg" alt="">
+            </div>
+          </div>
+          <div class="slogo-triangle">
+            <img src="../img/mymenu.jpg" alt="">
+          </div>
+          <div class="info_conceal"><img src="../img/aa.jpg" alt=""></div>
+        </div>
+        <div class="search_shopwt">
+          <div>手机逛</div>
+          <img src="../img/search_shopwt.png" alt="">
+          <div class="shopwt_conceal">
+            <img src="../img/tmwx.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="search_right">
+        <input type="text" name="text">
+        <span class="seek_button">搜天猫</span>
+        <span class="seek_dian">搜本店</span>
+      </div>
+    </div>
+    <div class="log">
+      <div class="log_logo"></div>
+      <div class="log_nav">
+        <div class="nav_allgoods">
+          <span><a href="#"><b>本店所有商品</b></a></span>
+          <span class="nav_tb"></span>
+        </div>
+        <ul>
+            <li>
+              <a href="#"><b>首页</b></a>
+            </li>
+            <li class="word_li">
+              <a href="http://localhost/src/html/good_list.html"><b>新世界产区</b></a>
+              <span class="ul_litb"></span>
+            </li>
+            <li class="popup_li">
+              <a href="http://localhost/src/html/good_list.html"><b>旧世界产区</b></a>
+              <span class="ul_litb"></span>
+            </li>
+            <li class="jm_li">
+              <a href="http://localhost/src/html/good_list.html"><b>葡萄种类</b></a>
+              <span class="ul_litb"></span>
+            </li>
+            <li class="td_li">
+              <a href="http://localhost/src/html/good_list.html"><b>按甜度分类</b></a>
+              <span class="ul_litb"></span>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="goods_conceal">
+    <ul>
+        <li>
+          <a href="#">所有宝贝</a>
+          <i></i>
+          <div class="goods_lastConceal lastConceal">
+            <ul>
+                <li><a href="#">按综合</a></li>
+                <li><a href="#">按销量</a></li>
+                <li><a href="#">按新品</a></li>
+                <li><a href="#">按价格</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#">精选干红</a></li>
+        <li><a href="#">名庄精选</a></li>
+        <li><a href="#">女神醉爱</a></li>
+        <li><a href="#">整箱特惠</a></li>
+        <li><a href="#">白酒专区</a></li>
+        <li><a href="#">品牌老酒</a></li>
+        <li><a href="#">洋酒烈酒</a></li>
+        <li>
+          <a href="#">按种类分类</a>
+          <i></i>
+          <div class="goods1_lastConceal lastConceal">
+            <ul>
+                <li><a href="#">红葡萄酒</a></li>
+                <li><a href="#">白葡萄酒</a></li>
+                <li><a href="#">桃红葡萄酒</a></li>
+                <li><a href="#">起泡葡萄酒</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">按价格分类</a>
+          <i></i>
+          <div class="goods2_lastConceal lastConceal">
+            <ul>
+                <li><a href="#">￥0-99元</a></li>
+                <li><a href="#">￥100-199元</a></li>
+                <li><a href="#">￥200-499元</a></li>
+                <li><a href="#">￥500元以上</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">按场合选酒</a>
+          <i></i>
+          <div class="goods3_lastConceal lastConceal">
+            <ul>
+                <li><a href="#">婚礼用酒</a></li>
+                <li><a href="#">商务谈判用酒</a></li>
+                <li><a href="#">日常饮用</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">按甜度分类</a>
+          <i></i>
+          <div class="goods4_lastConceal lastConceal">
+            <ul>
+                <li><a href="#">甜葡萄酒</a></li>
+                <li><a href="#">半甜葡萄酒</a></li>
+                <li><a href="#">半干葡萄酒</a></li>
+                <li><a href="#">干型葡萄酒</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">葡萄种类</a>
+          <i></i>
+          <div class="goods5_lastConceal lastConceal">
+            <ul>
+                <li><a href="#">赤霞珠CabernetSauvignon</a></li>
+                <li><a href="#">梅　洛.Merlot</a></li>
+                <li><a href="#">西　拉.Syrah/Shiraz</a></li>
+                <li><a href="#">品丽珠.Cabenet Franc</a></li>
+                <li><a href="#">佳丽酿.Carignane</a></li>
+                <li><a href="#">黑品诺.Pinot Noir</a></li>
+                <li><a href="#">歌海娜.Grenache</a></li>
+                <li><a href="#">长相思.Sauvignon blanc</a>
+                <li><a href="#">雷司令.Riesling</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">旧世界产区</a>
+          <i></i>
+          <div class="goods6_lastConceal lastConceal">
+            <ul>
+                <li><a href="#">法国</a></li>
+                <li><a href="#">意大利</a></li>
+                <li><a href="#">西班牙</a></li>
+                <li><a href="#">德国</a></li>
+                <li><a href="#">匈牙利</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">新世界产区</a>
+          <i></i>
+          <div class="goods7_lastConceal lastConceal">
+            <ul>
+              <li><a href="#">澳大利亚</a></li>
+              <li><a href="#">智利</a></li>
+              <li><a href="#">美国</a></li>
+            </ul>
+          </div>
+        </li>
+    </ul>
+  </div>
+
+  <div class="word_conceal idx_conceal">
+    <ul>
+        <li><a href="#">美国</a></li>
+        <li><a href="#">智利</a></li>
+        <li><a href="#">澳大利亚</a></li>
+    </ul>
+  </div>
+
+  <div class="popup_content jj_content idx_conceal">
+    <ul>
+        <li><a href="#">德国</a></li>
+        <li><a href="#">西班牙</a></li>
+        <li><a href="#">意大利</a></li>
+        <li><a href="#">法国</a></li>
+    </ul>
+  </div>
+
+  <div class="popup_content jm_content idx_conceal">
+    <ul>
+        <li><a href="#">雷司令.Riesling</a></li>
+        <li><a href="#">长相思.Sauvignon blanc</a></li>
+        <li><a href="#">歌海娜.Grenache</a></li>
+        <li><a href="#">黑品诺.Pinot Noir</a></li>
+        <li><a href="#">佳丽酿.Carignane</a></li>
+        <li><a href="#">品丽珠.Cabenet Franc</a></li>
+        <li><a href="#">西　拉.Syrah/Shiraz</a></li>
+        <li><a href="#">梅　洛.Merlot</a></li>
+        <li><a href="#">赤霞珠CabernetSauvignon</a></li>
+    </ul>
+  </div>
+
+  <div class="popup_content td_content idx_conceal">
+    <ul>
+        <li><a href="#">干型葡萄酒</a></li>
+        <li><a href="#">半干葡萄酒</a></li>
+        <li><a href="#">半甜葡萄酒</a></li>
+        <li><a href="#">甜葡萄酒</a></li>
+    </ul>
+  </div>
+ <div id="particulars" class="clear"></div>
+<!--     <div class="productContent warpper">
+        <div class="productPic">
+           <div class="pic">
+             <img src="../img/detalistbig1.jpg" alt="">
+           </div>
+        </div>
+        <div class="productArgument">
+           <h2>也买酒 澳大利亚进口红酒 黄尾袋鼠梅洛红葡萄酒6支</h2>
+           <p class="price"><span>价&nbsp;格&nbsp; ：</span><span>¥680</span></p>
+           <div class="logistics">
+             <span class="address">至全国：</span>
+             <span class="carriage">运费： 10.00元</span>
+           </div>
+           <div class="num">
+             <span>购买数量</span>
+             <input id="textBox" name="" type="text" value="1" />
+             <input id="add" name="" type="button" value="+" />
+            <input id="min" name="" type="button" value="-" />
+           </div>
+           <div class="choose">
+             <span class="buy"><a href="#">立即购买</a></span>
+             <span class="joinCart"><a href="#">添加购物车</a></span>
+           </div>
+        </div> -->
+    </div>
+
+  <div class="mui_mbar">
+    <div class="mui_mbar_plugins">
+      <div class="tm_mcListBox">
+        <div class="tm_mcTop">
+          <input id="tmcElectCart" type="checkbox" name="">
+          <label for="tmcElectCart">全选</label>
+          <a href="#">查看全部</a>
+        </div>
+        <div class="tm_mcBundle">
+          <div class="tm_mcBundleHeader">
+            <input type="checkbox" name="">
+            <img src="" alt="">
+            <span>也买酒官方旗舰店</span>
+            <strong class="tm_mcPrice">￥00.00</strong>
+          </div>
+          <div class="tm_mcBundleList">
+            <div class="tm_mcMainHead">
+              <a href="#">满300部分地区包邮</a>
+              <span>差215.00元,享包邮</span>
+            </div>
+            <div class="tm_mcMainList">
+              <input type="checkbox" name="">
+              <img src="" alt="">
+              <div>
+                <a href="#">-</a>
+                <span>1</span>
+                <a href="#">+</a>
+              </div>
+              <div>
+                <a href="#"></a>
+                <strong>￥00.00</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tm_mcBottom"></div>
+      </div>
+      <div class="tm_mcHandler">
+        <div class="tm_mcTotal">
+          <span>己选 <strong>0</strong>件</span>
+          <strong class="tm_cmJq">¥0.00</strong>
+        </div>
+        <div class="tm_mcCashier">
+          <div class="tm_mcGo">
+            结 算
+            <i></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mui_mbar_tabs">
+      <div class="mui_tab">
+        <div class="mui_tab_prof">
+          <div class="mui_tab_prof_logo mui_tab_color"></div>
+          <div class="mui_tab_tip">我的特权
+            <div class="mui_tab_arr mui_tab_tip_arr">◆</div>
+          </div>
+        </div>
+        <div class="mui_tab_cart mui_tab_color">
+          <div class="mui_tab_cart_logo"></div>
+          <div class="mui_tab_cart_text">购物车</div>
+          <div class="mui_tab_cart_sup">
+            <div class="mui_tab_cart_sup_bd">0</div>
+          </div>
+          <div class="mui_tab_tip"></div>
+        </div>
+        <div class="mui_tab_asset">
+          <div class="mui_tab_asset_log mui_tab_color"></div>
+          <div class="mui_tab_tip">我的资产
+            <div class="mui_tab_arr mui_tab_tip_arr">◆</div>
+          </div>
+        </div>
+        <div class="mui_tab_brand">
+          <div class="mui_tab_brand_log mui_tab_color"></div>
+          <div class="mui_tab_tip">我关注的品牌
+            <div class="mui_tab_arr mui_tab_tip_arr">◆</div>
+          </div>
+        </div>
+        <div class="mui_tab_favor">
+          <div class="mui_tab_favor_log mui_tab_color"></div>
+          <div class="mui_tab_tip">我的收藏
+            <div class="mui_tab_arr mui_tab_tip_arr">◆</div>
+          </div>
+        </div>
+        <div class="mui_tab_foot">
+          <div class="mui_tab_foot_log mui_tab_color"></div>
+          <div class="mui_tab_tip">我看过的
+            <div class="mui_tab_arr mui_tab_tip_arr">◆</div>
+          </div>
+        </div>
+        <div class="mui_tab_qrcode">
+          <div class="mui_tab_qrcode_log mui_tab_color"></div>
+          <div class="mui_tab_tip">
+            <img src="../img/mui_tab_tip.png" alt="">
+          </div>
+        </div>
+        <div class="mui_tab_top">
+          <div class="mui_tab_top_log mui_tab_color"></div>
+          <div class="mui_tab_tip">返回顶部
+            <div class="mui_tab_arr mui_tab_tip_arr">◆</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="tmall_ensure">
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+    </div>
+    <div class="tmall_desc">
+      <dl id="ensure">
+        <dt>
+          <span>购物指南</span>
+        </dt>
+        <dd>
+          <a href="#">免费注册</a>
+          <a href="#">开通支付宝</a>
+          <a href="#">支付宝充值</a>
+        </dd>
+      </dl>
+      <dl id="beginner">
+        <dt>
+          <span>天猫保障</span>
+        </dt>
+        <dd>
+          <a href="#">发票保障</a>
+          <a href="#">售后规则</a>
+          <a href="#">缺货赔付</a>
+        </dd>
+      </dl>
+      <dl id="payment">
+        <dt>
+          <span>天猫保障</span>
+        </dt>
+        <dd>
+          <a href="#">快捷支付</a>
+          <a href="#">信用卡</a>
+          <a href="#">余额宝</a>
+          <a href="#">蚂蚁花呗</a>
+          <a href="#">货到付款</a>
+        </dd>
+      </dl>
+      <dl id="seller">
+        <dt>
+          <span>商家服务</span>
+        </dt>
+        <dd>
+          <a href="#">商家入驻</a>
+          <a href="#">商家中心</a>
+          <a href="#">天猫智库</a>
+          <a href="#">天猫规则</a>
+          <a href="#">物流服务</a>
+          <a href="#">喵言喵语</a>
+          <a href="#">运营服务</a>
+        </dd>
+      </dl>
+      <dl id="mobile">
+        <dt>手机天猫</dt>
+        <dd><a href="#"><img src="../img/mobile.png" alt=""></a></dd>
+      </dl>
+    </div>
+    <div class="tmall_copyright">
+      <p class="footer_tmallinfo">
+        <a href="#">关于天猫</a>
+        <a href="#">帮助中心</a>
+        <a href="#">开放平台</a>
+        <a href="#">诚聘英才</a>
+        <a href="#">联系我们</a>
+        <a href="#">网站合作</a>
+        <a href="#">法律声明及隐私权政策</a>
+        <a href="#">知识产权</a>
+        <a href="#">廉正举报</a>
+        <a href="#">规则意见征集</a>
+      </p>
+      <p class="footer_otherlink">
+        <a href="#">阿里巴巴集团</a><span>|</span>
+        <a href="#">淘宝网</a><span>|</span>
+        <a href="#">天猫</a><span>|</span>
+        <a href="#">聚划算</a><span>|</span>
+        <a href="#">全球速卖通</a><span>|</span>
+        <a href="#">阿里巴巴国际交易市场</a><span>|</span>
+        <a href="#">1688</a><span>|</span>
+        <a href="#">阿里妈妈</a><span>|</span>
+        <a href="#">飞猪</a><span>|</span>
+        <a href="#">阿里云计算</a><span>|</span>
+        <a href="#">YunOS</a><span>|</span>
+        <a href="#">阿里通信</a><span>|</span>
+        <a href="#">万网</a><span>|</span>
+        <a href="#">高德</a><span>|</span>
+        <a href="#">UC</a><span>|</span>
+        <a href="#">友盟</a><span>|</span>
+        <a href="#">虾米</a><span>|</span>
+        <a href="#">阿里星球</a><span>|</span>
+        <a href="#">来往</a><span>|</span>
+        <a href="#">钉钉</a>
+      </p>
+      <div class="footer_copyright">
+        <span>
+
+    增值电信业务经营许可证：<a href="#">浙B2-20110446</a>
+        </span>
+        <span>网络文化经营许可证：<a href="#">浙网文[2015]0295-065号</a>
+
+        </span>
+        <a href="#" class="jb">12318举报</a><br>
+        <span>
+          互联网药品交易服务资格证：<a href="#">浙-（经营性）-2017-0005</a>
+        </span>
+          <span><img src="../img/jh.png" alt="">
+          <a href="#">浙公网安备 33010002000120号</a>
+        </span><br>
+        <b>© 2003-2017 TMALL.COM 版权所有</b>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

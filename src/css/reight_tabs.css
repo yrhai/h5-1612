@@ -1,0 +1,510 @@
+@import url(../css/common.css);
+.mui_mbar {
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  height: 336px;
+  visibility: visible;
+  right: 0px;
+  width: 35px;
+  bottom: 0px;
+  height: 100%;
+}
+
+.mui_mbar .mui_mbar_tabs {
+  left: 0;
+  width: 35px;
+  display: block;
+  position: absolute;
+  top: 0;
+  user-select: none;
+  z-index: 999999;
+  height: 100%;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab {
+  height: 100%;
+  background: #000;
+  left: 0;
+  width: 35px;
+  position: absolute;
+  top: 0;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_prof {
+  margin: 35px 0px 0px;
+  position: relative;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  background-color: #000;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_prof .mui_tab_prof_logo {
+  background: url(../img/mui_tab_prof_logo.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_prof .mui_tab_tip {
+  display: none;
+  position: absolute;
+  top: -1px;
+  right: 35px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_prof .mui_tab_tip .mui_tab_arr {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "\5b8b\4f53";
+  top: 10px;
+  right: -8px;
+  color: #494949;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_cart {
+  position: relative;
+  left: 0;
+  width: 35px;
+  height: 135px;
+  background-color: #000;
+  z-index: 9;
+  cursor: pointer;
+  margin: 8px 0px;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_cart .mui_tab_cart_logo {
+  top: 10px;
+  background: url(../img/mui_tab_cart_logo.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_cart .mui_tab_cart_text {
+  display: block;
+  left: 4px;
+  top: 32px;
+  width: 20px;
+  height: 50px;
+  line-height: 16px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  padding: 0 3px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_cart .mui_tab_cart_sup {
+  top: 95px;
+  right: 8px;
+  text-align: center;
+  z-index: 999999;
+  position: absolute;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_cart .mui_tab_cart_sup .mui_tab_cart_sup_bd {
+  border-radius: 10px;
+  background-color: #c40000;
+  padding: 0 3px;
+  min-width: 14px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_asset {
+  margin: 8px 0px;
+  height: 35px;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_asset .mui_tab_asset_log {
+  background: url(../img/mui_tab_asset_log.png);
+  position: absolute;
+  left: 0;
+  top: 220;
+  width: 35px;
+  height: 35px;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_asset .mui_tab_tip {
+  display: none;
+  position: absolute;
+  right: 35px;
+  top: 221px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_asset .mui_tab_tip .mui_tab_tip_arr {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "\5b8b\4f53";
+  top: 10px;
+  right: -8px;
+  color: #494949;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_brand {
+  margin: 8px 0px;
+  position: relative;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_brand .mui_tab_brand_log {
+  background: url(../img/mui_tab_brand_log.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_brand .mui_tab_tip {
+  display: none;
+  position: absolute;
+  right: 35px;
+  top: -1px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_brand .mui_tab_tip .mui_tab_tip_arr {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "\5b8b\4f53";
+  top: 10px;
+  right: -8px;
+  color: #494949;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_favor {
+  margin: 8px 0px;
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  background-color: #000;
+  z-index: 9;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_favor .mui_tab_favor_log {
+  background: url(../img/mui_tab_favor_log.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_favor .mui_tab_tip {
+  display: none;
+  position: absolute;
+  right: 35px;
+  top: -1px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_favor .mui_tab_tip .mui_tab_tip_arr {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "\5b8b\4f53";
+  top: 10px;
+  right: -8px;
+  color: #494949;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_foot {
+  margin: 8px 0px;
+  position: relative;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  background-color: #000;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_foot .mui_tab_foot_log {
+  background: url(../img/mui_tab_foot_log.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_foot .mui_tab_tip {
+  display: none;
+  position: absolute;
+  right: 35px;
+  top: -1px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_foot .mui_tab_tip .mui_tab_tip_arr {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "\5b8b\4f53";
+  top: 10px;
+  right: -8px;
+  color: #494949;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_qrcode {
+  bottom: 35px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  background-color: #000;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_qrcode .mui_tab_qrcode_log {
+  background: url(../img/mui_tab_qrcode_log.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_qrcode .mui_tab_tip {
+  display: none;
+  color: #666;
+  position: absolute;
+  top: -161px;
+  right: 34px;
+  width: 155px;
+  height: 207px;
+  background-repeat: no-repeat;
+  z-index: 999999;
+  cursor: default;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_top {
+  bottom: 0px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  background-color: #000;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_top .mui_tab_top_log {
+  background: url(../img/mui_tab_top_log.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_top .mui_tab_tip {
+  display: none;
+  position: absolute;
+  right: 35px;
+  top: -1px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+}
+
+.mui_mbar .mui_mbar_tabs .mui_tab .mui_tab_top .mui_tab_tip .mui_tab_tip_arr {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "\5b8b\4f53";
+  top: 10px;
+  right: -8px;
+  color: #494949;
+}
+
+.mui_mbar .mui_mbar_plugins {
+  width: 280px;
+  margin-left: 35px;
+  height: 100%;
+  display: none;
+  background-color: #e6e6e6;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcListBox .tm_mcTop {
+  position: fixed;
+  top: 0;
+  left: auto;
+  margin-top: 0;
+  width: 272px;
+  height: 28px;
+  line-height: 28px;
+  padding-left: 8px;
+  background-color: #e6e6e6;
+  cursor: default;
+  z-index: 1;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcListBox .tm_mcTop label {
+  color: gray;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcListBox .tm_mcTop input {
+  vertical-align: middle;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcListBox .tm_mcTop a {
+  font-size: 12px;
+  line-height: 1.4;
+  height: 16px;
+  text-indent: 0;
+  color: gray;
+  width: 52px;
+  margin: 8px 20px 0 0;
+  padding: 0;
+  background: 0 0 !important;
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcListBox .tm_mcBundle {
+  cursor: default;
+  margin-top: 35px;
+  padding-left: 8px;
+  background-color: #fff;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcHandler {
+  position: fixed;
+  bottom: 20px;
+  width: 280px;
+  z-index: 99999;
+  padding: 0 0 15px;
+  background-color: #e6e6e6;
+  padding: 0 16px;
+  z-index: 3;
+  color: #333;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcHandler .tm_mcTotal {
+  width: 248px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #e6e6e6;
+  padding: 0;
+  color: #333;
+  overflow: hidden;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcHandler .tm_mcTotal span {
+  float: left;
+  width: 100px;
+  height: 30px;
+  color: #000;
+  font-weight: 400;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcHandler .tm_mcTotal .tm_cmJq {
+  float: right;
+  text-align: right;
+  margin-left: 3px;
+  font-weight: 400;
+  color: #c40000;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcHandler .tm_mcCashier {
+  background-color: #666;
+  width: 248px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcHandler .tm_mcCashier .tm_mcGo {
+  position: relative;
+  width: 70px;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  color: #fff;
+  font-size: 14px;
+}
+
+.mui_mbar .mui_mbar_plugins .tm_mcHandler .tm_mcCashier .tm_mcGo i {
+  background: url(../img/jt_right.png);
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 14px;
+  top: 12px;
+  background-size: 100%;
+}

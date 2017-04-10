@@ -1,0 +1,111 @@
+.footer{
+  background: #fff;
+}
+.tmall_ensure{
+  cursor: pointer;
+  width: 1190px;
+  height: 100px;
+  background: url(../img/tmall_ensure.jpg) no-repeat;
+  margin: 25px auto;
+  padding: 0;
+}
+
+.tmall_desc{
+  width: 1190px;
+  padding-top: 22px;
+  height: 190px;
+  margin: auto;
+  border-top: 1px solid #ededed;
+  background: url(../img/tmall_desc.png)  45px bottom no-repeat;
+}
+.tmall_desc dl{
+  float: left;
+  width: 186px;
+  padding-left: 52px;
+}
+.tmall_desc dl dt{
+  color: #646464;
+  font-size: 16px;
+  font-weight: 700;
+  height: 30px;
+  line-height: 30px;
+}
+.tmall_desc dl dd{
+  text-align: left;
+  display: block;
+  -webkit-margin-start: 40px;
+  text-align: left;
+  margin: 0;
+}
+.tmall_desc dl dd a{
+  width: 100px;
+  overflow: hidden;
+  text-align: left;
+  height: 20px;
+  line-height: 20px;
+  color: #8b8b8b;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+}
+.tmall_desc #mobile dd a{
+  width: 105px;
+  height: 105px;
+  line-height: 105px;
+  text-align: center;
+}
+
+.tmall_copyright{
+  border-top: 2px solid #c40000;
+  background: #000;
+  text-align: left;
+  min-height: 205px;
+  margin: 0;
+  padding: 0;
+  padding-left: 75px;
+}
+
+.tmall_copyright p{
+  width: 1190px;
+  /*margin-left: 75px;*/
+  /*margin: 0 auto;*/
+  color: #fff;
+  line-height: 10px;
+  padding: 5px 0;
+}
+.tmall_copyright p a{
+  margin-right: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
+.tmall_copyright .footer_otherlink span{
+  font-size: 12px;
+}
+.tmall_copyright .footer_copyright span{
+  margin-right: 50px;
+  line-height: 25px;
+  background: #000;
+  color: #a4a4a4;
+  width: 1190px;
+  font-size: 12px;
+}
+.tmall_copyright .footer_copyright span img{
+  vertical-align: middle;
+}
+.tmall_copyright .footer_copyright span a{
+  color: #a4a4a4;
+  text-decoration: none;
+}
+.tmall_copyright .footer_copyright b{
+  display: block;
+  color: #686868;
+  font-weight: 400;
+  font-size: 12px;
+}
+.tmall_copyright .footer_copyright .jb{
+  color: #686868;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+}

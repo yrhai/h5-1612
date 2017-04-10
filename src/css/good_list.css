@@ -1,0 +1,576 @@
+.good_list{
+  position: relative;
+  overflow: hidden;
+  width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.layout{
+  width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list_left{
+  width: 190px;
+  float: left;
+}
+.skin_box_inshop{
+  background: #fff;
+  height: auto;
+  margin-bottom: 10px;
+}
+.inshop_hd{
+  border-width: 0;
+  background-image: none;
+  background-color: #000;
+  color: #fff;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 10px;
+}
+.inshop_hd h3{
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  margin-left: 0;
+}
+.inshop_bd{
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 115px;
+}
+.inshop_bd ul{
+  list-style: none;
+  color: #666;
+  padding: 0;
+}
+.inshop_bd ul .keyword{
+  height: 22px;
+  /*padding-left: 0;*/
+  /*margin-top: 10px;*/
+  float: left;
+  margin-right: 10px;
+}
+.inshop_bd ul .keyword span{
+  width: 50px;
+  text-align: right;
+  font-size: 12px;
+}
+.inshop_bd ul .keyword input{
+  width: 110px;
+}
+
+.inshop_bd ul .price{
+  margin-top: 10px;
+  height: 22px;
+  line-height: 22px;
+  float: left;
+}
+.inshop_bd ul .price span{
+  height: 22px;
+  line-height: 22px;
+  margin-right: 4px;
+  font-size: 12px;
+}
+.inshop_bd ul .price input{
+  background-color: #fff;
+  height: 17px;
+  line-height: 17px;
+  text-indent: 0;
+  padding-left: 12px;
+  width: 35px;
+}
+.inshop_bd ul .submit{
+  margin-left: 53px;
+  margin-top: 10px;
+  height: 22px;
+}
+.inshop_bd ul .submit input{
+  margin-top: 10px;
+  border-radius: 2px;
+  width: 57px;
+  background: url(../img/jjtb.png) no-repeat 9999px 9999px;
+  background: #333;
+  color: #fff;
+  background-position: 0 -67px;
+}
+
+.skin_box_cates{
+  margin-bottom: 10px;
+  position: relative;
+  border: 1px solid #ccc;
+}
+.cates_hd{
+  background-color: #000;
+  color: #fff;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 10px;
+}
+.cates_hd h3{
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  margin-left: 0;
+  margin: 0;
+}
+.cates_bd{
+  padding: 0;
+  position: relative;
+  width: 188px;
+}
+.cates_bd_tree{
+  padding: 0 0 20px;
+  list-style: none;
+  margin: 0;
+}
+.cates_bd_tree .cat_bd_tr_li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+  border-bottom: 1px solid #e5e5e5;
+  background: #f9f9f9;
+}
+.cates_bd_tree .cat_bd_tr_li i{
+  background: url(../img/jjtb.png) no-repeat 9999px 9999px;
+  background-position: -6px -99px;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  line-height: 11px;
+  vertical-align: top;
+  margin-right: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.cates_bd_tree .cat_bd_tr_li h4{
+  margin: 0;
+  padding-left: 15px;
+  line-height: 26px;
+  vertical-align: middle;
+  font-weight: 400;
+}
+.cates_bd_tree .cat_bd_tr_li h4 a{
+  color: #333;
+  font-weight: 700;
+  width: 153px;
+  display: inline-block;
+  line-height: 26px;
+  vertical-align: middle;
+  font-size: 13px;
+  text-decoration: none;
+  margin-right: -1px;
+}
+.cates_bd_tree li ul{
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  display: none;
+}
+.cates_bd_tree .cat_bd_tr_li .fst_cat_bd{
+  padding-left: 15px;
+  height: 26px;
+  line-height: 26px;
+}
+.cates_bd_tree .cat_bd_tr_li .fst_cat_bd a{
+  color: #666;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 12px;
+}
+.cates_bd_tree li ul li{
+  background: #fff;
+
+}
+.cates_bd_tree .cat_bd_tr_li ul li h4 i{
+  width: 3px;
+  height: 3px;
+  background: #666;
+}
+.cates_bd_tree .cat_bd_tr_li ul li h4 a{
+  color: #666;
+  font-weight: 400;
+}
+
+
+.skin_box_list{
+  position: relative;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+.list_hd{
+  background-color: #000;
+  color: #fff;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 10px;
+}
+.list_hd h3{
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  margin: 0;
+}
+.list_tab{
+  width: 188px;
+  height: 25px;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list_tab li{
+  border: 1px solid #e5e5e5;
+  border-top: 0;
+  margin-left: -1px;
+  margin-right: -1px;
+  width: 50%;
+  height: 26px;
+  line-height: 26px;
+  color: #666;
+  float: left;
+}
+
+.panels .panel{
+
+}
+.panel ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.panel ul li{
+  border-bottom: 1px dotted #ebebeb;
+  margin: 0;
+  padding: 15px 10px 4px;
+  height: 61px;
+  position: relative;
+}
+.panel ul li .img{
+  float: left;
+  font-size: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.panel ul li .detail{
+  margin-left: 55px;
+  z-index: 1;
+  position: relative;
+  /*margin: 0;*/
+}
+.panel ul li .detail p{
+  height: 16px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  color: #666;
+  text-decoration: none;
+  font-size: 11px;
+}
+.panel ul li .detail .price{
+  margin: 0;
+  font-family: arial,verdana,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 20px;
+  line-height: 20px;
+  color: #c00;
+  height: 16px;
+}
+.panel ul li .detail .sale{
+  color: #999;
+}
+.panel ul li .detail .sale span{
+  color: #c97;
+  font-weight: 700;
+}
+.collection{
+  display: none;
+}
+
+.control_group{
+  line-height: 86px;
+  height: 86px;
+  width: 188px;
+  text-align: center;
+}
+.control_group a{
+  background: url(../img/jjtb.png) no-repeat 9999px 9999px;
+  background-position: -23px -111px;
+  background-color: #e5e5e5;
+  display: inline-block;
+  line-height: 25px;
+  padding: 0 23px 0 10px;
+  border-radius: 2px;
+  color: #666;
+  text-decoration: none;
+  font-size: 12px;
+}
+.list_right{
+  background: 0 0;
+  border-width: 0;
+  border-color: #e5e5e5;
+  border-style: solid;
+}
+.crumb{
+  height: 30px;
+  line-height: 27px;
+  z-index: 200;
+  background: #f9f9f9;
+  border: 1px solid #E6E2E1;
+  box-sizing: border-box;
+  height: 30px;
+  margin-left: 200px;
+  top: 14px;
+  position: relative;
+  padding-left: 25px;
+}
+.crumb span{
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 5px;
+  float: left;
+}
+.crumb span a{
+  text-decoration: none;
+  color: #666;
+}
+.crumb span img{
+  vertical-align: middle;
+}
+.crumb span label{
+  background: url(../img/fdj.png) no-repeat 9999px 9999px;
+  background-position: 0 -175px;
+  position: relative;
+  border: 0;
+  width: 125px;
+  height: 20px;
+  line-height: 21px;
+  color: #666;
+  padding: 0 25px 0 12px;
+  margin-right: 15px;
+  float: left;
+  display: block;
+}
+.crumb span i{
+  background: url(../img/fdj.png) no-repeat 9999px 9999px;
+  border: 0;
+  background-position: 0 -47px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 9px;
+  left: 333px;
+  cursor: pointer;
+  text-indent: -9999px;
+}
+.crumb span input{
+  border-radius: 10px;
+  padding: 0 20px 0 10px;
+  outline: none;
+  width:125px;
+  float: left;
+  top: 0px;
+  left: 0px;
+  margin-top: 5px;
+}
+.crumb .expand{
+  background: url(../img/fdj.png) no-repeat 9999px 9999px;
+  background-position: -130px -101px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  z-index: 201;
+  cursor: pointer;
+  right: 0;
+  top: -1px;
+  background-color: #F9F9F9;
+  outline: 0;
+}
+.crumb span div{
+  width: 417px;
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 0 2px 2px;
+  box-shadow: 1px 2px 3px #ededed;
+  margin-top: -1px;
+  overflow: hidden;
+  position: absolute;
+  left: 92px;
+  top: 29px;
+  line-height: 19px;
+}
+.crumb span div ul{
+  float: left;
+  border-left: 1px dashed #d5d5d5;
+  margin-left: -1px;
+  margin-bottom: 15px;
+  height: 132px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.crumb span div ul li{
+  float: none;
+  padding-right: 20px;
+  padding-left: 16px;
+  display: block;
+  color: #666;
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+  text-indent: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 102px;
+}
+.filter{
+  margin: 0 0 10px;
+  padding: 5px;
+  position: relative;
+  top: 16px;
+  z-index: 10;
+  zoom: 1;
+  background: #faf9f9;
+  color: #806f66;
+  display: block;
+  overflow: hidden;
+  left: 10px;
+}
+.filter a{
+  color: #806f66;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  margin-left: -1px;
+  overflow: hidden;
+  padding: 0 15px 0 5px;
+  float: left;
+  height: 22px;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 10;
+  text-decoration: none;
+  font-size: 14px;
+}
+.filter a i{
+  background: url(../img/fdj.png) no-repeat;
+  background-position: -22px -23px;
+  top: 6px;
+  right: 5px;
+  width: 7px;
+  height: 10px;
+  line-height: 10px;
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+}
+.filter div{
+  width: 100px;
+  height: 24px;
+  border: 0;
+  margin-right: 7px;
+  position: relative;
+  background: 0 0;
+  float: left;
+  line-height: 20px;
+  z-index: 10;
+  font-size: 12px;
+}
+.filter div input{
+  vertical-align: middle;
+}
+.filter p{
+  float: right;
+  height: 21px;
+  overflow: hidden;
+  color: #999;
+  font-family: \5B8B\4F53,Helvetica,sans-serif;
+  font-size: 12px;
+}
+.filter .qian_a,.filter .qian_c{
+  display: block;
+  width: 25px;
+  height: 22px;
+  line-height: 22px;
+  text-indent: 12px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-left: 2px;
+}
+.filter a.qian_b{
+  position: static;
+  display: block;
+  float: left;
+  line-height: 24px;
+}
+.filter a .jiag_a{
+  top: 2px;
+  right: 5px;
+}
+.items{
+  padding: 5px;
+  position: relative;
+  z-index: 10;
+  zoom: 1;
+  color: #806f66;
+  display: block;
+  overflow: hidden;
+  left: 10px;
+}
+.items .item{
+  width: 180px;
+  padding: 5px 4px 30px;
+  margin-left: 0;
+  margin-right: 9px;
+  margin-bottom: 11px;
+  display: block;
+  float: left;
+}
+.items .item .photo{
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.items .item dd{
+  padding: 0;
+  margin: 0;
+}
+.items .item .photo a img{
+  height: 180px;
+  width: 180px;
+  border: 0;
+  cursor: pointer;
+}
+.items .item dd .moni{
+  float: left;
+  color: #c00;
+  font-family: arial,verdana,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 20px;
+  line-height: 20px;
+  margin: 0;
+  text-decoration: none;
+  width: 180px;
+}
+.items .item dd .listName{
+  position: relative;
+  margin: 0;
+  margin-top: 22px;
+  overflow: hidden;
+  color: #666;
+  line-height: 1.5;
+  height: 36px;
+  text-decoration: none;
+  font-size: 12px;
+}
